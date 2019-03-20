@@ -1,0 +1,13 @@
+.microsoft-section{
+    display: grid;
+    grid-template: "left right";
+    padding: 8px 56px;
+}
+.left-nav{
+    grid-area: left;
+    justify-self: start;
+}
+.right-nav{
+    grid-area: right;
+    justify-self: end;
+}

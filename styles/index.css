@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ciklum-task{
+    display: grid;
+    grid-template:
+    "microsoft"
+    "dropbox"
+    "invision"
+    "oculus"
+    "apple";
+    grid-gap: 8px;
+}
+.microsoft-section{
+  grid-area: microsoft;  
+}
+.dropbox-section{
+  grid-area: dropbox;  
+}
+.invision-section{
+  grid-area: invision;  
+}
+.oculus-section{
+  grid-area: oculus;  
+}
+.oculus-section{
+  grid-area: apple;  
+}
