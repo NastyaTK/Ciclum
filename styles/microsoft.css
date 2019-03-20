@@ -1,7 +1,7 @@
 .microsoft-section{
     display: grid;
     grid-template: "left right";
-    padding: 8px 56px;
+    padding: 16px 80px;
 }
 .left-nav{
     grid-area: left;
@@ -10,4 +10,34 @@
 .right-nav{
     grid-area: right;
     justify-self: end;
+}
+.nav-links{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 24px;
+}
+.microsoft-logo{
+    width: 110px;
+    margin: 0 16px 0 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #262626;
+    font-size: 13px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-links a span{
+    border-bottom: 2px solid #ffffff;
+}
+.nav-links a:hover span{
+    border-bottom: 2px solid #262626;
+}
+.link-with-icon{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.link-with-icon span{
+    margin: 0 4px 0 0;
 }
