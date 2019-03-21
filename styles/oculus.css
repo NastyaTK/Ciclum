@@ -1,0 +1,56 @@
+.oculus-section{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background: white;
+}
+.oculus-section-block{
+    padding: 0;
+    text-align: center;
+}
+.oculus-section-text{
+    font-family: "Oculus Sans", "Arial", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    color: #a4a5a6;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 16px;
+    margin: 0;
+}
+.oculus-section-product-name{
+    font-family: "Oculus Sans", "Arial", "Helvetica", sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+    color: #ffffff;
+}
+.oculus-section-gray-background{
+    padding: 150px 0;
+    background: #0303039f;
+}
+.oculus-section-gray-background:hover{
+    background: transparent;
+}
+.torn-image{
+    background-image: url(/images/torn.jpg);
+}
+.evil-image{
+    background-image: url(/images/evil-dead.png);
+}
+.asgard-image{
+    background-image: url(/images/asgard.jpg);
+}
+.oculus-section-block:hover{
+    background-size: 130%;
+}
+.oculus-section-block{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.oculus-section-text-block{
+    display: grid;
+    align-content: center;
+    height: 80px;
+}
