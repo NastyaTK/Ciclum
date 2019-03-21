@@ -1,0 +1,83 @@
+.apple-section{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background: #F2F1F2;
+    color: #888;
+    padding: 2% 0;
+}
+.footer{
+    width: 63%;
+    justify-self: center;
+}
+.apple-footer-top{
+    letter-spacing: -.01em;
+    font-size: 0.82em;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #888; 
+}
+.apple-footer-top a{
+    text-decoration: none;
+    color: #333;
+}
+.apple-footer-top a:hover{
+    text-decoration: underline;
+}
+.apple-footer-middle-links{
+    display: grid;
+    margin-bottom: 16px; 
+    grid-template-columns: auto auto auto auto auto;
+}
+.apple-footer-middle-links ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.apple-footer-middle-links li{
+    line-height: 1.7;
+    list-style-type: none;
+}
+.apple-footer-middle-links a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #555;
+}
+.apple-footer-middle-links a:hover{
+    text-decoration: underline;
+}
+.links-list li:nth-of-type(1) a{
+    color: #333;
+    font-weight: bolder;
+}
+.apple-footer-middle-text{
+    letter-spacing: -.01em;
+    font-size: 0.82em;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #888; 
+}
+.apple-footer-middle-text a{
+    color: #0070c9;
+    text-decoration: none;
+}
+.apple-footer-middle-text a:hover{
+    text-decoration: underline;
+}
+.apple-footer-bottom{
+    display: grid;
+    grid-auto-flow: column;
+    letter-spacing: -.01em;
+    font-size: 0.82em;
+    padding: 8px;
+}
+.apple-footer-bottom-links a{
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0 16px;
+    color: #555;
+    border-right: 1px solid #888;
+}
+.apple-footer-bottom-links a:hover{
+    text-decoration: underline;
+}
+.apple-footer-bottom-links :last-child{
+    margin-right: 6%;
+    border-right: none;
+}
