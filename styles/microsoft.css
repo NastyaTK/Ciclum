@@ -24,7 +24,7 @@
 .nav-links a{
     text-decoration: none;
     color: #262626;
-    font-size: 13px;
+    font-size: 0.9em;
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .nav-links a span{

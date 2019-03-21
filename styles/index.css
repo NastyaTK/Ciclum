@@ -10,7 +10,7 @@ body{
     "invision"
     "oculus"
     "apple";
-    grid-gap: 8px;
+    grid-gap: 0px;
 }
 .microsoft-section{
   grid-area: microsoft;  
