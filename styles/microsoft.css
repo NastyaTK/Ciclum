@@ -41,3 +41,78 @@
 .link-with-icon span{
     margin: 0 4px 0 0;
 }
+.header-products-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.header-products-dropdown-block{
+    position: absolute;
+    display: none;
+    background: #F2F1F2;
+    transform: translate(-60%, 0);
+}
+.header-products-dropdown :hover ~ .header-products-dropdown-block{
+    display: block;    
+}
+.header-products-dropdown-items{
+    display: grid;
+    grid-template: "apps computers fun business it other";
+    grid-gap: 40px;
+    padding: 0 24px;
+    font-size: 0.9em;
+}
+.ul-apps{
+    grid-area: apps;
+}
+.ul-computers{
+    grid-area: computers;
+}
+.ul-fun{
+    grid-area: fun;
+}
+.ul-business{
+    grid-area: business;
+}
+.ul-it{
+    grid-area: it;
+}
+.ul-other{
+    grid-area: other;
+}
+.ul li:first-of-type{
+    color: #262626;
+    font-weight: 600;
+}
+
+.header-products-dropdown-items ul{
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 250%;
+    width: 170px;
+}
+.header-products-dropdown-items ul li{
+    list-style-type: none;
+}
+.header-products-dropdown-items ul li:hover a{
+    text-decoration: underline;
+}
+.header-products-dropdown-block:hover{
+    display: block;
+}
+.header-dropdown-bottom{
+    text-align: center;
+    background: #E5E5E5;
+    text-transform: uppercase;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 250%;
+}
+@media screen and (max-width: 850px){
+    .left-nav a{
+        display: none;
+    }
+}
+@media screen and (max-width: 1100px){
+    .right-nav a span{
+        display: none;
+    }
+}
