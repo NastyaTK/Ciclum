@@ -1,4 +1,5 @@
 .apple-section{
+    grid-area: apple;  
     display: grid;
     grid-template-rows: auto auto auto;
     background: #F2F1F2;

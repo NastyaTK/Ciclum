@@ -3,6 +3,7 @@
     src: url("/fonts/MavenPro-Regular.ttf");
 }
 .invision-section{
+    grid-area: invision;  
     display: grid;
     grid-template-rows: auto auto;
     background: #f36;

@@ -1,4 +1,5 @@
 .microsoft-section{
+    grid-area: microsoft;  
     display: grid;
     grid-template: "left right";
     padding: 16px 80px;

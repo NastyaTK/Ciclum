@@ -13,18 +13,3 @@ body{
     "apple";
     grid-gap: 0px;
 }
-.microsoft-section{
-  grid-area: microsoft;  
-}
-.dropbox-section{
-  grid-area: dropbox;  
-}
-.invision-section{
-  grid-area: invision;  
-}
-.oculus-section{
-  grid-area: oculus;  
-}
-.apple-section{
-  grid-area: apple;  
-}
